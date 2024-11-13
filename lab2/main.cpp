@@ -1,9 +1,11 @@
 #include <iostream>
+#include "headers.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    read_data();
+    out_strings();
+    write_strings();
 }

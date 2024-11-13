@@ -1,0 +1,6 @@
+
+
+void out_strings()
+{
+
+}

@@ -1,0 +1,5 @@
+
+void write_strings()
+{
+
+}
