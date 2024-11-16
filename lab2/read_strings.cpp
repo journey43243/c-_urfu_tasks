@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-void read_data()
+vector read_data()
 {
     setlocale(LC_ALL,"RU");
     vector<int> stuff;
@@ -17,4 +17,5 @@ void read_data()
 
     }
     inf.close();
+    return stuff;
 }
