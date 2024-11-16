@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    read_data();
-    out_strings();
-    write_strings();
+    vector<int> vec = read_data();
+    out_strings(vec);
+    write_strings(vec);
 }

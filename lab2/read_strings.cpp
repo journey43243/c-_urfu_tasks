@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-vector read_data()
+vector<int> read_data()
 {
     setlocale(LC_ALL,"RU");
     vector<int> stuff;

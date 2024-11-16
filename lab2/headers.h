@@ -1,5 +1,5 @@
 #include <vector>
-
-vector read_data();
-void out_strings();
-void write_strings();
+using namespace std;
+vector<int> read_data();
+void out_strings(vector<int> vec);
+void write_strings(vector<int> vec);
